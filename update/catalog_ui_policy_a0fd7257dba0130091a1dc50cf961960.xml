@@ -22,80 +22,79 @@
         <script_false><![CDATA[function onCondition() {
 
 }]]></script_false>
-        <script_true><![CDATA[
-function onCondition() 
+        <script_true><![CDATA[function onCondition()
 {
 	
 	var id = g_form.getValue('u_task_id');
 	
-	if (id == "WF1669T001"){
+	if (id1 == "WF1669T001"){
 		g_form.setMandatory('variables.api_change_ba_write_approval',true);
-		}
+	}
 	if (id == "WF1669T001B"){
 		g_form.setMandatory('variables.api_change_write_approval',true);
-		}
+	}
 	if (id == "WF1669T001D"){
 		g_form.setMandatory('variables.api_change_write_arch_approval',true);
-		}
-
-if (id == "WF1669T002"){
+	}
+	
+	if (id == "WF1669T002"){
 		g_form.setMandatory('variables.api_config_ba_write_approval',true);
-		}
+	}
 	if (id == "WF1669T002B"){
 		g_form.setMandatory('variables.api_config_write_approval',true);
-		}
+	}
 	if (id == "WF1669T002D"){
-		g_form.setMandatory('variables.api_config_write_arch_approval',true);
-		}
-
-if (id == "WF1669T003"){
+		g_form.setMandatory1('variables.api_config_write_arch_approval',true);
+	}
+	
+	if (id == "WF1669T003"){
 		g_form.setMandatory('variables.api_incident_ba_write_approval',true);
-		}
+	}
 	if (id == "WF1669T003B"){
 		g_form.setMandatory('variables.api_inc_write_approval',true);
-		}
+	}
 	if (id == "WF1669T003D"){
 		g_form.setMandatory('variables.api_inc_write_arch_approval',true);
-		}
-
-
-if (id == "WF1669T005"){
+	}
+	
+	
+	if (id == "WF1669T005"){
 		g_form.setMandatory('variables.api_request_ba_write_approval',true);
-		}
+	}
 	if (id == "WF1669T005B"){
 		g_form.setMandatory('variables.api_request_write_approval',true);
-		}
+	}
 	if (id == "WF1669T005D"){
 		g_form.setMandatory('variables.api_request_write_arch_approval',true);
-		}
-
-
-
-if (id == "WF1669T006"){
+	}
+	
+	
+	
+	if (id == "WF1669T006"){
 		g_form.setMandatory('variables.api_asset_ba_write_approval',true);
-		}
+	}
 	if (id == "WF1669T006B"){
 		g_form.setMandatory('variables.api_asset_write_approval',true);
-		}
+	}
 	if (id == "WF1669T006D"){
 		g_form.setMandatory('variables.api_asset_write_arch_approval',true);
-		}
-
-if (id == "WF1669T008"){
+	}
+	
+	if (id == "WF1669T008"){
 		g_form.setMandatory('variables.api_change_ba_read_approval',true);
-		}
+	}
 	if (id == "WF1669T008D"){
 		g_form.setMandatory('variables.api_change_read_arch_approval',true);
-		}
-
-
-if (id == "WF1669T021"){
+	}
+	
+	
+	if (id == "WF1669T021"){
 		g_form.setMandatory('variables.api_change_ba_write_approval',true);
-		}
-	if (id == "WF1669T022"){
+	}
+	if(id == "WF1669T022"){
 		g_form.setMandatory('variables.api_config_ba_write_approval',true);
-		}
-
+	}
+	
 }]]></script_true>
         <set_values/>
         <short_description>test1</short_description>
@@ -105,7 +104,7 @@ if (id == "WF1669T021"){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a0fd7257dba0130091a1dc50cf961960</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>test1</sys_name>
         <sys_overrides/>
         <sys_package display_value="test1" source="x_192889_test1">e8bd729fdb20130091a1dc50cf96198f</sys_package>
@@ -113,9 +112,9 @@ if (id == "WF1669T021"){
         <sys_scope display_value="test1">e8bd729fdb20130091a1dc50cf96198f</sys_scope>
         <sys_update_name>catalog_ui_policy_a0fd7257dba0130091a1dc50cf961960</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-05 11:12:55</sys_updated_on>
+        <sys_updated_on>2018-03-06 10:37:57</sys_updated_on>
         <table/>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <variable_set/>
         <view/>
     </catalog_ui_policy>
