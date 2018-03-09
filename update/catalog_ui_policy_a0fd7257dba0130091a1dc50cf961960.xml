@@ -27,10 +27,10 @@
 	
 	var id = g_form.getValue('u_task_id');
 	
-	if (id1 == "WF1669T001"){
+	If (id1 == "WF1669T001"){
 		g_form.setMandatory('variables.api_change_ba_write_approval',true);
 	}
-	if (id == "WF1669T001B"){
+	If (id == "WF1669T001B"){
 		g_form.setMandatory('variables.api_change_write_approval',true);
 	}
 	if (id == "WF1669T001D"){
@@ -91,7 +91,7 @@
 	if (id == "WF1669T021"){
 		g_form.setMandatory('variables.api_change_ba_write_approval',true);
 	}
-	if(id == "WF1669T022"){
+	(id == "WF1669T022"){
 		g_form.setMandatory('variables.api_config_ba_write_approval',true);
 	}
 	
